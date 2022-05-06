@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+.square {
+  width: 50px;
+  background-color: #eee;
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color: #eee;
+}
+
+.stats {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: #eee;
+  cursor: pointer;
+}
