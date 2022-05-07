@@ -58,7 +58,7 @@ function hasWinner() {
 //Each click
 for (let element of squares) {
   element.addEventListener("click", function () {
-    if (element.innerHTML != "-") {
+    if (element.innerHTML != "-" || winnerSelected.innerHTML != "") {
       return;
     }
 
